@@ -1,15 +1,26 @@
 {
   "name": "b36-english-node",
   "version": "1.0.0",
-  "main": "double.js",
+  "main": "index.js",
+  "type":"commonjs",
   "scripts": {
+    "start":"node index.js",
+    "dev":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RhagaviThiyagarajan/b36-english-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RhagaviThiyagarajan/b36-english-node/issues"
+  },
+  "homepage": "https://github.com/RhagaviThiyagarajan/b36-english-node#readme",
+  "description": ""
 }
