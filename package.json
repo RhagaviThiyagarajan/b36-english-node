@@ -2,7 +2,7 @@
   "name": "b36-english-node",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
@@ -23,8 +23,8 @@
     "url": "https://github.com/RhagaviThiyagarajan/b36-english-node/issues"
   },
   "homepage": "https://github.com/RhagaviThiyagarajan/b36-english-node#readme",
-  "description": "",
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "description": ""
 }
