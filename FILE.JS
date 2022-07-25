@@ -7,11 +7,15 @@
 
 
 const fs=require("fs");
-const quote2="live more worry less";
-for(i=1;i<=10;i++)
+const quote3="live more worry less";
+
+// console.log(process.argv);
+// const[,,noOfFiles]=process.argv;
+// for(i=1;i<=noOfFiles;i++)
 {
-    fs.appendFile(`./backup/text-${i}.html`,quote2,(err)=>
-    {
-        console.log("Life is beautiful💕");
-    })
-}
+    fs.appendFile ("./fun.html",'\n'+quote3,(err)=>
+   {
+
+        console.log("updated");
+        }
+    )}
