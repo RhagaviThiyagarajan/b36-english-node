@@ -27,11 +27,11 @@ console.log(process.env.MONGO_URL);
 //const express = require('express');//3rd party
 const app = express();
 const PORT = process.env.PORT||4000;
-app.listen(PORT,function()
-{
-  console.log("server started successfully");
+// app.listen(PORT,function()
+// {
+//   console.log("server started successfully");
 
-});
+// });
 //"mongodb://localhost:27017"-V16 & before
 
 //v16+
