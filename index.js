@@ -1,7 +1,8 @@
 import express from "express";
 import { MongoClient } from "mongodb";
 
-// import 'dotenv/config' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+
+ //import 'dotenv/config' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 
 import dotenv from "dotenv";
 
@@ -26,12 +27,12 @@ console.log(process.env.MONGO_URL);
 
 //const express = require('express');//3rd party
 const app = express();
-const PORT = process.env.PORT||4000;
-// app.listen(PORT,function()
-// {
-//   console.log("server started successfully");
+const PORT = process.env.PORT||5000;
+ app.listen(PORT,function()
+ {
+ console.log("server started successfully");
 
-// });
+});
 //"mongodb://localhost:27017"-V16 & before
 
 //v16+
